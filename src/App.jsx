@@ -4,6 +4,9 @@ import Donation from "./pages/Donation";
 import "./App.css";
 import logo from "./assets/logo.png";
 import hero from "./assets/hero.jpg";
+import lakaran1 from "./assets/lakaran1.jpg";
+import lama1 from "./assets/lama1.jpg";
+import bersih1 from "./assets/bersih1.jpg";
 
 function App() {
   return (
@@ -190,33 +193,79 @@ function App() {
 
       <section id="galeri" className="section">
 
+<h2>Galeri Aktiviti</h2>
 
-        <h2>Galeri</h2>
-
-        <div className="gallery-link">
-
-          <div>
-          📷
-          <h3>Galeri Gambar</h3>
-          <p>
-          Lakaran asrama,
-          asrama lama,
-          pembersihan asrama
-          </p>
-          </div>
+<p>
+Lihat perkembangan pembangunan Madrasah Yayasan As-Siddiqin
+melalui koleksi gambar aktiviti dan kemudahan asrama.
+</p>
 
 
-          <div>
-          🎥
-          <h3>Galeri Video</h3>
-          <p>
-          Video perkembangan terkini
-          </p>
-          </div>
+<div className="gallery-cards">
 
-        </div>
 
-      </section>
+<a href="#lakaran" className="gallery-card">
+
+<img src={lakaran1}/>
+
+<div>
+
+<h3>
+Lakaran Asrama
+</h3>
+
+<p>
+Reka bentuk dan perancangan pembangunan asrama baharu.
+</p>
+
+</div>
+
+</a>
+
+
+
+<a href="#lama" className="gallery-card">
+
+<img src={lama1}/>
+
+<div>
+
+<h3>
+Asrama Lama
+</h3>
+
+<p>
+Keadaan asal asrama sebelum proses penambahbaikan.
+</p>
+
+</div>
+
+</a>
+
+
+
+<a href="#bersih" className="gallery-card">
+
+<img src={bersih1}/>
+
+<div>
+
+<h3>
+Pembersihan Asrama
+</h3>
+
+<p>
+Aktiviti gotong-royong dan persediaan kemudahan asrama.
+</p>
+
+</div>
+
+</a>
+
+
+</div>
+
+</section>
 
 
 
@@ -247,6 +296,44 @@ function App() {
 
 
       <footer id="hubungi">
+
+      <img src={logo}/>
+
+      <h3>
+      Pertubuhan Amal 2 Jannah
+      </h3>
+
+      <p>
+      Madrasah Yayasan As-Siddiqin
+      </p>
+
+
+      <a 
+      href="https://www.facebook.com/profile.php?id=61592883501717"
+      target="_blank"
+      rel="noreferrer"
+>
+
+      Facebook Rasmi
+
+      </a>
+
+
+      <br/><br/>
+
+
+      <a 
+      href="https://wa.me/60174788934"
+      target="_blank"
+      rel="noreferrer"
+>
+
+      WhatsApp: 017-4788934
+
+      </a>
+
+
+      </footer>
 
       <img src={logo}/>
 
