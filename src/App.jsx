@@ -1,3 +1,6 @@
+import { Routes, Route } from "react-router-dom";
+import Gallery from "./pages/Gallery";
+import Donation from "./pages/Donation";
 import "./App.css";
 import logo from "./assets/logo.png";
 import hero from "./assets/hero.jpg";
@@ -97,7 +100,7 @@ function App() {
 
 
 
-        <a href="#galeri" className="box">
+        <a href="/galeri" className="box">
 
           <h2>03</h2>
           <h3>Galeri</h3>
@@ -110,7 +113,7 @@ function App() {
 
 
 
-        <a href="#sumbangan" className="box">
+        <a href="/sumbangan" className="box">
 
           <h2>04</h2>
           <h3>Sumbangan</h3>
@@ -131,10 +134,33 @@ function App() {
         <h2>Tentang Kami</h2>
 
         <p>
-        Pertubuhan Amal 2 Jannah (Madrasah Yayasan As-Siddiqin)
-        merupakan sebuah organisasi yang memberi tumpuan kepada
-        pengurusan madrasah dan pembangunan kemudahan asrama.
+        Pertubuhan Amal 2 Jannah (Madrasah Yayasan As-Siddiqin) 
+        merupakan sebuah organisasi kebajikan yang memberi tumpuan 
+        kepada pendidikan Islam, pembangunan madrasah serta kebajikan 
+        komuniti Muslim minoriti yang memerlukan sokongan dan perhatian.
         </p>
+
+        <p>
+        Tujuan utama penubuhan ini adalah untuk membantu menyediakan 
+        kemudahan pendidikan, pengajian Islam dan persekitaran pembelajaran 
+        yang lebih baik kepada masyarakat Islam, khususnya golongan yang 
+        berada dalam keadaan serba kekurangan.
+        </p>
+
+        <p>
+        Melalui pembangunan madrasah dan kemudahan asrama, Pertubuhan Amal 
+        2 Jannah berusaha memastikan generasi Muslim dapat memperoleh 
+        pendidikan agama yang berkualiti, membina jati diri serta 
+        memperkukuhkan kefahaman Islam dalam kehidupan seharian.
+        </p>
+
+        <p>
+        Sokongan daripada para penyumbang dan masyarakat amat penting bagi 
+        menjayakan usaha kebajikan ini, khususnya dalam menyediakan asrama 
+        yang lebih selesa, selamat dan kondusif untuk para pelajar serta 
+        komuniti yang dibantu.
+        </p>
+
 
       </section>
 
