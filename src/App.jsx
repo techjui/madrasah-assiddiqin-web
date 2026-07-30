@@ -1,6 +1,4 @@
-import { Routes, Route } from "react-router-dom";
-import Gallery from "./pages/Gallery";
-import Donation from "./pages/Donation";
+
 import "./App.css";
 import logo from "./assets/logo.png";
 import hero from "./assets/hero.jpg";
@@ -193,79 +191,79 @@ function App() {
 
       <section id="galeri" className="section">
 
-<h2>Galeri Aktiviti</h2>
+        <h2>Galeri Aktiviti</h2>
 
-<p>
-Lihat perkembangan pembangunan Madrasah Yayasan As-Siddiqin
-melalui koleksi gambar aktiviti dan kemudahan asrama.
-</p>
-
-
-<div className="gallery-cards">
+          <p>
+          Lihat perkembangan pembangunan Madrasah Yayasan As-Siddiqin
+          melalui koleksi gambar aktiviti dan kemudahan asrama.
+          </p>
 
 
-<a href="#lakaran" className="gallery-card">
-
-<img src={lakaran1}/>
-
-<div>
-
-<h3>
-Lakaran Asrama
-</h3>
-
-<p>
-Reka bentuk dan perancangan pembangunan asrama baharu.
-</p>
-
-</div>
-
-</a>
+        <div className="gallery-cards">
 
 
+        <a href="#lakaran" className="gallery-card">
 
-<a href="#lama" className="gallery-card">
+        <img src={lakaran1}/>
 
-<img src={lama1}/>
+        <div>
 
-<div>
+        <h3>
+        Lakaran Asrama
+        </h3>
 
-<h3>
-Asrama Lama
-</h3>
+        <p>
+        Reka bentuk dan perancangan pembangunan asrama baharu.
+        </p>
 
-<p>
-Keadaan asal asrama sebelum proses penambahbaikan.
-</p>
+        </div>
 
-</div>
-
-</a>
+        </a>
 
 
 
-<a href="#bersih" className="gallery-card">
+        <a href="#lama" className="gallery-card">
 
-<img src={bersih1}/>
+        <img src={lama1}/>
 
-<div>
+        <div>
 
-<h3>
-Pembersihan Asrama
-</h3>
+        <h3>
+        Asrama Lama
+        </h3>
 
-<p>
-Aktiviti gotong-royong dan persediaan kemudahan asrama.
-</p>
+        <p>
+        Keadaan asal asrama sebelum proses penambahbaikan.
+        </p>
 
-</div>
+        </div>
 
-</a>
+        </a>
 
 
-</div>
 
-</section>
+        <a href="#bersih" className="gallery-card">
+
+        <img src={bersih1}/>
+
+        <div>
+
+        <h3>
+        Pembersihan Asrama
+        </h3>
+
+        <p>
+        Aktiviti gotong-royong dan persediaan kemudahan asrama.
+        </p>
+
+        </div>
+
+        </a>
+
+
+        </div>
+
+        </section>
 
 
 
@@ -295,56 +293,39 @@ Aktiviti gotong-royong dan persediaan kemudahan asrama.
 
 
 
-      <footer id="hubungi">
+            <footer id="hubungi">
 
-      <img src={logo}/>
+        <img src={logo}/>
 
-      <h3>
-      Pertubuhan Amal 2 Jannah
-      </h3>
+        <h3>
+        Pertubuhan Amal 2 Jannah
+        </h3>
 
-      <p>
-      Madrasah Yayasan As-Siddiqin
-      </p>
-
-
-      <a 
-      href="https://www.facebook.com/profile.php?id=61592883501717"
-      target="_blank"
-      rel="noreferrer"
->
-
-      Facebook Rasmi
-
-      </a>
+        <p>
+        Madrasah Yayasan As-Siddiqin
+        </p>
 
 
-      <br/><br/>
+        <a 
+        href="https://www.facebook.com/profile.php?id=61592883501717"
+        target="_blank"
+        rel="noreferrer"
+        >
+        Facebook Rasmi
+        </a>
 
 
-      <a 
-      href="https://wa.me/60174788934"
-      target="_blank"
-      rel="noreferrer"
->
-
-      WhatsApp: 017-4788934
-
-      </a>
+        <br/><br/>
 
 
-      </footer>
+        <a 
+        href="https://wa.me/60174788934"
+        target="_blank"
+        rel="noreferrer"
+        >
+        WhatsApp: 017-4788934
+        </a>
 
-      <img src={logo}/>
-
-      <p>
-      Pertubuhan Amal 2 Jannah
-      </p>
-
-      <p>
-      Facebook:
-      Pertubuhan Amal 2 Jannah
-      </p>
 
       </footer>
 
