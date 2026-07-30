@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  color:#333;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:#07563d;
+  color:white;
+}
+
+.logo{
+  width:80px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:15px;
+}
+
+.hero{
+  min-height:600px;
+  display:flex;
+  align-items:center;
+  padding:8%;
+  background:#07563d;
+  color:white;
+}
+
+.hero h1{
+  font-size:45px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:20px;
+  max-width:600px;
+  line-height:1.6;
+}
+
+button{
+  background:#d6a632;
+  border:none;
+  padding:15px 30px;
+  color:white;
+  border-radius:8px;
+  margin-top:20px;
+  cursor:pointer;
+}
+
+.section,
+.donate,
+.video{
+  padding:60px 10%;
+  text-align:center;
+}
+
+.gallery{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.placeholder{
+  width:300px;
+  height:200px;
+  background:#eee;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:15px;
+}
+
+footer{
+  background:#07563d;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
