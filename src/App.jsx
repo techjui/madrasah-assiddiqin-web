@@ -1,284 +1,243 @@
 import "./App.css";
-
 import logo from "./assets/logo.png";
 import hero from "./assets/hero.jpg";
 
-import lakaran1 from "./assets/lakaran1.jpg";
-import lakaran2 from "./assets/lakaran2.jpg";
-import lakaran3 from "./assets/lakaran3.jpg";
-
-import lama1 from "./assets/lama1.jpg";
-import lama2 from "./assets/lama2.jpg";
-import lama3 from "./assets/lama3.jpg";
-
-import bersih1 from "./assets/bersih1.jpg";
-import bersih2 from "./assets/bersih2.jpg";
-import bersih3 from "./assets/bersih3.jpg";
-
-
 function App() {
+  return (
+    <>
 
-return (
+      <header className="header">
 
-<div>
+        <div className="brand">
+          <img src={logo} />
+          <div>
+            <h3>Pertubuhan Amal 2 Jannah</h3>
+            <span>Madrasah Yayasan As-Siddiqin</span>
+          </div>
+        </div>
 
 
-<header>
+        <nav>
+          <a href="#utama">Utama</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#kempen">Kempen</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#hubungi">Hubungi</a>
+        </nav>
 
-<img src={logo} className="logo"/>
+      </header>
 
-<nav>
-<a href="#utama">Utama</a>
-<a href="#tentang">Tentang</a>
-<a href="#asrama">Asrama</a>
-<a href="#galeri">Galeri</a>
-<a href="#sumbangan">Sumbangan</a>
-</nav>
 
-</header>
 
+      <section 
+      id="utama"
+      className="hero"
+      style={{
+        backgroundImage:
+        `linear-gradient(
+        rgba(60,20,100,.65),
+        rgba(60,20,100,.65)
+        ),url(${hero})`
+      }}
+      >
 
+        <div className="hero-text">
 
-<section 
-className="hero"
-style={{
-backgroundImage:
-`linear-gradient(rgba(0,50,40,.65),rgba(0,50,40,.65)),url(${hero})`
-}}
->
+          <h1>
+          Pertubuhan Amal 2 Jannah
+          </h1>
 
-<div>
+          <h2>
+          Madrasah Yayasan As-Siddiqin
+          </h2>
 
-<h1>
-Pertubuhan Amal 2 Jannah
-</h1>
 
-<h2>
-Madrasah Yayasan As-Siddiqin
-</h2>
+          <p>
+          Bersama membina masa depan yang lebih baik
+          melalui pembangunan madrasah dan kemudahan asrama.
+          </p>
 
 
-<p>
-Bersama membantu menyediakan kemudahan
-asrama yang lebih baik untuk para pelajar madrasah.
-</p>
+          <a href="https://app.herepay.org/amal2jannah/asramachiangrai">
+          <button>
+          Sumbang Sekarang
+          </button>
+          </a>
 
+        </div>
 
-<a href="https://app.herepay.org/amal2jannah/asramachiangrai">
-<button>
-Sumbang Sekarang
-</button>
-</a>
+      </section>
 
 
-</div>
 
-</section>
+      <section className="menu-box">
 
 
+        <a href="#tentang" className="box">
 
+          <h2>01</h2>
+          <h3>Tentang Kami</h3>
+          <p>
+          Kenali Pertubuhan Amal 2 Jannah
+          </p>
 
-<section id="tentang" className="section">
+        </a>
 
-<h2>Tentang Kami</h2>
 
-<p>
-Pertubuhan Amal 2 Jannah (Madrasah Yayasan As-Siddiqin)
-merupakan sebuah organisasi yang menguruskan aktiviti
-madrasah serta pembangunan kemudahan asrama.
-</p>
 
-</section>
+        <a href="#kempen" className="box">
 
+          <h2>02</h2>
+          <h3>Kempen Asrama</h3>
+          <p>
+          Sokong pembangunan asrama madrasah
+          </p>
 
+        </a>
 
 
 
+        <a href="#galeri" className="box">
 
-<section id="asrama" className="donate">
+          <h2>03</h2>
+          <h3>Galeri</h3>
+          <p>
+          Gambar dan video aktiviti
+          </p>
 
+        </a>
 
-<h2>
-Kempen Sumbangan Asrama
-</h2>
 
 
-<p>
-Bantuan anda amat bermakna dalam usaha menyediakan
-kemudahan asrama yang lebih selesa dan kondusif.
-</p>
 
+        <a href="#sumbangan" className="box">
 
-<div className="bank">
+          <h2>04</h2>
+          <h3>Sumbangan</h3>
+          <p>
+          Hulurkan bantuan melalui HerePay
+          </p>
 
-<h3>
-Maklumat Sumbangan
-</h3>
+        </a>
 
-<p>
-Maybank
-</p>
 
-<strong>
-555050119823
-</strong>
+      </section>
 
-<p>
-Pertubuhan Amal 2 Jannah
-</p>
 
 
-</div>
 
+      <section id="tentang" className="section">
 
-<a href="https://app.herepay.org/amal2jannah/asramachiangrai">
+        <h2>Tentang Kami</h2>
 
-<button>
-Bayar Melalui HerePay
-</button>
+        <p>
+        Pertubuhan Amal 2 Jannah (Madrasah Yayasan As-Siddiqin)
+        merupakan sebuah organisasi yang memberi tumpuan kepada
+        pengurusan madrasah dan pembangunan kemudahan asrama.
+        </p>
 
-</a>
+      </section>
 
 
 
-<br/>
 
+      <section id="kempen" className="purple-section">
 
-<a href="https://wa.me/60174788934">
+        <h2>
+        Kempen Pembangunan Asrama
+        </h2>
 
-<button className="whatsapp">
-WhatsApp Kami
-</button>
+        <p>
+        Sokongan anda membantu menyediakan kemudahan asrama
+        yang lebih selesa dan kondusif.
+        </p>
 
-</a>
 
+        <h3>
+        Maybank: 555050119823
+        </h3>
 
-</section>
+      </section>
 
 
 
 
+      <section id="galeri" className="section">
 
 
+        <h2>Galeri</h2>
 
-<section id="galeri" className="section">
+        <div className="gallery-link">
 
+          <div>
+          📷
+          <h3>Galeri Gambar</h3>
+          <p>
+          Lakaran asrama,
+          asrama lama,
+          pembersihan asrama
+          </p>
+          </div>
 
-<h2>
-Galeri Aktiviti
-</h2>
 
+          <div>
+          🎥
+          <h3>Galeri Video</h3>
+          <p>
+          Video perkembangan terkini
+          </p>
+          </div>
 
+        </div>
 
-<h3>
-Album Lakaran Asrama
-</h3>
+      </section>
 
 
-<div className="gallery">
 
-<img src={lakaran1}/>
-<img src={lakaran2}/>
-<img src={lakaran3}/>
+      <section id="sumbangan" className="donate">
 
-</div>
+        <h2>
+        Hulurkan Sumbangan
+        </h2>
 
+        <a href="https://app.herepay.org/amal2jannah/asramachiangrai">
+        <button>
+        Bayar Melalui HerePay
+        </button>
+        </a>
 
 
+        <br/>
 
 
-<h3>
-Album Asrama Lama
-</h3>
+        <a href="https://wa.me/60174788934">
+        WhatsApp: 017-4788934
+        </a>
 
 
-<div className="gallery">
+      </section>
 
-<img src={lama1}/>
-<img src={lama2}/>
-<img src={lama3}/>
 
-</div>
 
 
+      <footer id="hubungi">
 
+      <img src={logo}/>
 
+      <p>
+      Pertubuhan Amal 2 Jannah
+      </p>
 
+      <p>
+      Facebook:
+      Pertubuhan Amal 2 Jannah
+      </p>
 
-<h3>
-Album Pembersihan Asrama
-</h3>
+      </footer>
 
 
-<div className="gallery">
-
-<img src={bersih1}/>
-<img src={bersih2}/>
-<img src={bersih3}/>
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<section className="video">
-
-
-<h2>
-Galeri Video
-</h2>
-
-
-<iframe
-src="https://www.youtube.com/embed/"
-title="Video Madrasah"
-allowFullScreen>
-</iframe>
-
-
-</section>
-
-
-
-
-
-
-<footer>
-
-<img src={logo}/>
-
-<h3>
-Pertubuhan Amal 2 Jannah
-</h3>
-
-<p>
-Madrasah Yayasan As-Siddiqin
-</p>
-
-
-<p>
-WhatsApp:
-017-4788934
-</p>
-
-
-<p>
-© 2026 Semua Hak Terpelihara
-</p>
-
-
-</footer>
-
-
-</div>
-
-);
-
+    </>
+  );
 }
 
 
